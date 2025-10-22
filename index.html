@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📖 Quote Collection</h1>
+      <p>Collect and share inspiring quotes</p>
+    </header>
+
+    <!-- Form to add new quotes -->
+    <section class="add-quote-section">
+      <h2>Add a New Quote</h2>
+      <form id="quoteForm">
+        <input 
+          type="text" 
+          id="quoteText" 
+          placeholder="Enter the quote..." 
+          required
+        />
+        <input 
+          type="text" 
+          id="quoteAuthor" 
+          placeholder="Author name" 
+          required
+        />
+        <button type="submit">Add Quote</button>
+      </form>
+    </section>
+
+    <!-- Displayingall quotes -->
+    <section class="quotes-section">
+      <h2>All Quotes</h2>
+      <div id="quotesList"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
