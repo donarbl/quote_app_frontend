@@ -1,5 +1,5 @@
 // Backend API URL (I'll need to change this after deploying backend)
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://qgs00ow4ck8880osks0oo0so.hosting.codeyourfuture.io';
 
 // Fetching and displayng all quotes when page loads
 async function fetchQuotes() {
